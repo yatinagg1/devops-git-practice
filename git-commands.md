@@ -20,4 +20,5 @@ git restore <filename> --> used to restore a file
 `
 VIEWING CHANGES 
 git log --> view commit history in repo
+git log --oneline --> view commit history in short
 git status --> shows current status of working directory and staging area. it shows untracked, staged, modified files
