@@ -5,6 +5,8 @@ git config --global user.email "email id" --> to configure user email id globall
 git config user.name "user name" --> to configure user name for project
 git config user.email "email id" --> to configure user email is for project
 git clone <URL> --> to make a clone remote repo to local
+git fetch --> to fetch remote git hub data but not to clone or copy locally
+
 
 
 BASIC WORKFLOW
@@ -18,7 +20,7 @@ git branch -D <branchname> --> to delete a branch
 git checkout <branchname> --> to change branch
 git restore <filename> --> used to restore a file
 
-`
+
 VIEWING CHANGES 
 git log --> view commit history in repo
 git log --oneline --> view commit history in short
