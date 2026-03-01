@@ -17,7 +17,8 @@ git switch <branchname> --> change working branch
 git branch -D <branchname> --> to delete a branch
 git checkout <branchname> --> to change branch
 git restore <filename> --> used to restore a file
-
+git branch <branchname> --> to create a new branch
+git checkout -b <branchname> --> to create branch to <branchname> and to change working branch to it 
 `
 VIEWING CHANGES 
 git log --> view commit history in repo
